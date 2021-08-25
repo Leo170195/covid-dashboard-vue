@@ -1,0 +1,38 @@
+:root{
+    --main-blue: #16b1b6;
+    --main-blue-dark: #2D09F0;
+}
+
+#main{
+    background-color: rgb(233, 232, 232);
+}
+.text-b{
+    color: var(--main-blue);
+}
+
+.text-bs{
+    color: var(--main-blue-dark);
+}
+
+.bg-b{
+    background-color: var(--main-blue);
+}
+
+.bg-bs{
+    background-color: var(--main-blue-dark);
+}
+
+.card-neo{
+    box-shadow: -5px -5px 5px #fff, 5px 5px 5px #a7aab5;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+.card-neo:hover{
+    box-shadow: -2px -2px 5px #fff, 2px 2px 5px #babecc;
+}
+
+.card-neo:active{
+    box-shadow: inset 1px 1px 2px #babecc, -1px -1px 2px #fff;
+}
